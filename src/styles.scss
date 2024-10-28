@@ -1,0 +1,13 @@
+@import "assets/styles/theme";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Inter, "Helvetica Neue", sans-serif; }
+
+.custom-snackbar {
+    background-color: #ff6f00 !important; // Color naranja personalizado
+    color: #ffffff; // Color de texto blanco
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 8px; // Bordes redondeados
+  }
+  

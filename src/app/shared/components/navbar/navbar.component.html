@@ -1,0 +1,20 @@
+<nav class="navbar" *ngIf="showNavbar">
+  <div class="navbar-brand">
+    <a class="brand-title">Mi Aplicación</a>
+  </div>
+
+  <!-- Botón de menú (solo visible en pantallas pequeñas) -->
+  <button class="menu-toggle" (click)="toggleMenu()">
+    <span class="material-icons">menu</span>
+  </button>
+
+  <!-- Contenedor de enlaces de navegación -->
+  <div class="navbar-links" [class.show]="menuOpen">
+    <a routerLink="/tasks" class="nav-link" (click)="toggleMenu()">
+      <span class="material-icons">assignment</span> Ver Tareas
+    </a>
+    <a (click)="logout(); toggleMenu()" class="nav-link logout-link">
+      <span class="material-icons">logout</span> Cerrar Sesión
+    </a>
+  </div>
+</nav>

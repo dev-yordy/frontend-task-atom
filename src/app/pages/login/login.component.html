@@ -1,0 +1,30 @@
+<div class="login-container">
+    <div class="login-left">
+      <h2>Bienvenido</h2>
+      <p>Organiza tus tareas diarias y lleva un mejor control de ellas.</p>
+    </div>
+    
+    <div class="login-right">
+      <div class="login-avatar">
+        <img src="https://img.icons8.com/ios-filled/100/000000/user.png" alt="User Icon" />
+      </div>
+      <form (ngSubmit)="onSubmit()">
+        <div class="input-group">
+          <i class="icon-user"></i>
+          <input type="email" placeholder="E-mail Address" [(ngModel)]="email" name="email" required />
+        </div>
+        <div class="input-group">
+          <i class="icon-lock"></i>
+          <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required />
+        </div>
+        <div class="forgot-password">
+          <a href="#">Forgot your password?</a>
+        </div>
+        <button type="submit" class="login-button">LOGIN</button>
+        <div class="create-account">
+          <a href="#">Create new account</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  

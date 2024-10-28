@@ -1,0 +1,22 @@
+.snackbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  border-radius: 4px;
+
+  span {
+    flex: 1;
+    margin-right: 12px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  button {
+    color: #fff;
+    background: transparent;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,44 @@
+.dialog-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6f00;
+    margin-bottom: 1rem;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1rem;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .cancel-button {
+    color: #ff6f00;
+    font-weight: bold;
+  }
+  
+  .mat-form-field {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+  
+  .mat-form-field-wrapper {
+    padding: 8px;
+  }
+  
+  .mat-raised-button {
+    border-radius: 5px;
+  }  
